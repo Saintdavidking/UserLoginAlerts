@@ -1,4 +1,4 @@
-# User Login Alerts (Strapi + Gmail SMTP + Twilio) with Next.js UI
+# User Login Alerts (Strapi + Twilio) with Next.js UI
 
 This example sends an **email** (via Gmail SMTP through Strapi's email plugin) and an **SMS** (via Twilio) every time a user logs in through Strapi’s `/api/auth/local` endpoint. A minimal Next.js app is included to demonstrate login.
 
