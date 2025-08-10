@@ -1,0 +1,20 @@
+{
+  "name": "strapi-login-alerts",
+  "private": true,
+  "version": "1.0.1",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build"
+  },
+  "dependencies": {
+    "@strapi/plugin-email": "^4.25.0",
+    "@strapi/plugin-users-permissions": "^4.25.0",
+    "@strapi/provider-email-nodemailer": "^4.25.0",
+    "@strapi/strapi": "^4.25.0",
+    "geoip-lite": "^1.4.7",
+    "twilio": "^5.2.0",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.4.5"
+  }
+}
